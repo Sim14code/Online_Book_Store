@@ -1,0 +1,32 @@
+/* Ensure the body and html fill the entire viewport */
+html,
+body {
+  height: 100%;
+  margin: 0; /* Remove default margins */
+  display: flex;
+  flex-direction: column; /* Stack items vertically */
+}
+
+/* Content section grows to fill the space */
+.content {
+  flex: 1; /* Fills the available space between the header and footer */
+}
+
+/* Footer at the bottom */
+.footer {
+  background-color: #333;
+  color: #fff;
+  text-align: center;
+  padding: 10px 0; /* Add some padding for better visibility */
+  width: 100%; /* Ensure it spans the full width */
+}
+
+.footer .container {
+  max-width: 960px;
+  margin: 0 auto;
+}
+
+.copyright {
+  text-align: center;
+  margin-top: 2px;
+}

@@ -1,0 +1,26 @@
+.Pages {
+  /* background: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)); */
+  position: absolute;
+  background-image: url("Screenshot\ 2025-01-01\ 230738.png");
+  background-repeat: no-repeat;
+  background-position: top;
+  background-size: cover;
+  height: 100vh;
+  text-align: center;
+  width: 100%;
+}
+
+.Pages h1 {
+  font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
+  color: white;
+  text-shadow: 2px 2px 6px rgba(0, 0, 0, 0.7);
+  color: white;
+  text-align: center;
+  font-size: 100px;
+  margin-bottom: 2px;
+}
+
+.Pages p {
+  text-align: center;
+  font-weight: 700;
+}

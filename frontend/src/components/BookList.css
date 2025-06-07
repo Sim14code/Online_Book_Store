@@ -1,0 +1,9 @@
+.all {
+  background-color: #ffb6e6;
+}
+.BookCard {
+  display: flex;
+  flex-wrap: wrap; /* Prevent cards from wrapping to the next line */
+  gap: 1rem;
+  justify-content: space-around; /* Add space between the cards */
+}

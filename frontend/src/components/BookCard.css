@@ -1,0 +1,32 @@
+.bigDiv {
+  display: flex;
+  background-color: white;
+}
+
+.book-card {
+  border: 2px solid black;
+  padding: 1rem;
+  border-radius: 5px;
+  max-width: 200px;
+  text-align: center;
+  flex: 0 0 auto; /* Ensure the cards don’t shrink or stretch */
+}
+
+.book-card h3 {
+  color: #333;
+  font-size: 1.2rem;
+}
+
+.book-card a {
+  color: #61dafb;
+  text-decoration: none;
+}
+
+.book-card a:hover {
+  color: #21a1f1;
+}
+
+.book-card img {
+  margin-top: 0.5rem;
+  border-radius: 5px;
+}
