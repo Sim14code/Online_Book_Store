@@ -23,7 +23,5 @@ Coded a website using **Django** and **ReactJS**. Integrated **REST API**, real-
 - **Authentication**: Google OAuth
 - **Payments**: Razorpay Integration
 - **Database**: SQLite (can be swapped with PostgreSQL/MySQL)
-- **Others**: Axios, JWT, React Hooks
 
-e
 
